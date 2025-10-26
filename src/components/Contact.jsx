@@ -9,7 +9,7 @@ export default function Contact() {
           <div className="pointer-events-none absolute -top-20 -right-20 h-72 w-72 rounded-full bg-cyan-500/20 blur-3xl" />
           <div className="max-w-2xl relative">
             <h2 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight">Let’s build your backend</h2>
-            <p className="mt-3 text-slate-300">Available for freelance and full-time roles. I can help with greenfield services, migrations, performance tuning, and platform hardening.</p>
+            <p className="mt-3 text-slate-300">Available for freelance and full-time roles. I can help with new services, migrations, performance tuning, and platform hardening.</p>
             <div className="mt-6 grid gap-3 sm:grid-cols-2">
               <a href="mailto:hello@backend.dev" className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 font-medium text-white hover:bg-white/10 transition">
                 <Mail className="size-4" />

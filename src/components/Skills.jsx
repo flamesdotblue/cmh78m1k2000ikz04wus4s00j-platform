@@ -4,22 +4,22 @@ const skills = [
   {
     title: 'API & Services',
     icon: Server,
-    items: ['Node.js (Express/Fastify)', 'Java (Spring Boot)', 'Python (FastAPI)', 'gRPC, GraphQL, REST']
+    items: ['Node.js (Express/Fastify)', 'Java (Spring Boot)', 'Python (FastAPI)', 'REST, GraphQL, gRPC']
   },
   {
     title: 'Data Layer',
     icon: Database,
-    items: ['PostgreSQL, MySQL', 'MongoDB, Redis', 'Kafka, RabbitMQ', 'Elasticsearch, OpenSearch']
+    items: ['PostgreSQL, MySQL', 'MongoDB, Redis', 'Kafka, RabbitMQ', 'Elasticsearch']
   },
   {
     title: 'Cloud & Platform',
     icon: Cloud,
-    items: ['AWS, GCP', 'Kubernetes, Docker', 'Terraform, Pulumi', 'CI/CD (GitHub Actions)']
+    items: ['AWS, GCP', 'Docker, Kubernetes', 'Terraform', 'CI/CD (GitHub Actions)']
   },
   {
     title: 'Security & Reliability',
     icon: Shield,
-    items: ['OAuth2/OIDC, JWT', 'OWASP, Threat Modeling', 'Rate limiting, Circuit breakers', 'SLA, SLO/SLI, Chaos testing']
+    items: ['JWT, OAuth2/OIDC', 'OWASP basics', 'Rate limiting, retries', 'Logging, metrics, tracing']
   }
 ];
 
@@ -30,7 +30,7 @@ export default function Skills() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-2xl">
           <h2 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight">Core skills</h2>
-          <p className="mt-3 text-slate-300">Production-grade backends with clear boundaries, robust data models, and observable flows.</p>
+          <p className="mt-3 text-slate-300">Production-minded backends with clear boundaries, robust data flows, and practical observability.</p>
         </div>
 
         <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -60,9 +60,9 @@ export default function Skills() {
               <div className="rounded-xl bg-emerald-400/10 p-2 border border-emerald-400/30">
                 <Lock className="size-5 text-emerald-300" />
               </div>
-              <h3 className="font-semibold text-white">Compliance-ready</h3>
+              <h3 className="font-semibold text-white">Secure by default</h3>
             </div>
-            <p className="mt-3 text-slate-300 text-sm">Patterns aligned with SOC2 and PCI needs: secrets hygiene, least privilege IAM, audit trails, and encryption in transit/at rest.</p>
+            <p className="mt-3 text-slate-300 text-sm">Secrets hygiene, least-privilege IAM, input validation, and encryption in transit/at rest.</p>
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
@@ -72,7 +72,7 @@ export default function Skills() {
               </div>
               <h3 className="font-semibold text-white">Performance-first</h3>
             </div>
-            <p className="mt-3 text-slate-300 text-sm">Load-tested services with caching strategies, async pipelines, and tuned DB indices for low latency and high throughput.</p>
+            <p className="mt-3 text-slate-300 text-sm">Caching, async pipelines, and tuned DB queries for low latency and solid throughput.</p>
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
@@ -82,7 +82,7 @@ export default function Skills() {
               </div>
               <h3 className="font-semibold text-white">Observability</h3>
             </div>
-            <p className="mt-3 text-slate-300 text-sm">OpenTelemetry traces, structured logging, and metrics with alerting to keep MTTR low and insights high.</p>
+            <p className="mt-3 text-slate-300 text-sm">Structured logs, metrics, and traces (OpenTelemetry) with clear SLOs and alerting.</p>
           </div>
         </div>
       </div>

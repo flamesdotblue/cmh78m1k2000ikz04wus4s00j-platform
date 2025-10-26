@@ -4,7 +4,7 @@ const projects = [
   {
     title: 'Payment Orchestration API',
     description:
-      'Unified payments layer routing to multiple PSPs with idempotency, retries, and PCI-friendly tokenization. Achieved 35% decline recovery and 99.99% availability.',
+      'Unified payments layer that routes to multiple PSPs with idempotency and retries. Built and tested in a small team; focused on clean contracts and safe error handling.',
     stack: ['Node.js', 'PostgreSQL', 'Redis', 'Kafka', 'AWS'],
     links: {
       demo: '#',
@@ -12,9 +12,9 @@ const projects = [
     }
   },
   {
-    title: 'Event-driven Microservices Platform',
+    title: 'Event-driven Microservices',
     description:
-      'Domain-driven services communicating via Kafka with schema registry, outbox pattern, and SAGA. Horizontal scale to 50k events/sec.',
+      'Domain-oriented services communicating via Kafka with an outbox pattern and SAGA for consistency. Emphasis on schemas, versioning, and consumer resilience.',
     stack: ['Java', 'Spring Boot', 'Kafka', 'MongoDB', 'Kubernetes'],
     links: {
       demo: '#',
@@ -24,7 +24,7 @@ const projects = [
   {
     title: 'Observability Pipeline',
     description:
-      'Centralized logs, metrics, and traces with OpenTelemetry collectors, vectorized log shipping, and SLO dashboards. MTTR reduced by 42%.',
+      'Centralized logs, metrics, and traces using OpenTelemetry collectors and dashboards. Helped cut mean time to detect issues by surfacing actionable signals.',
     stack: ['OpenTelemetry', 'Elastic', 'Prometheus', 'Grafana', 'Golang'],
     links: {
       demo: '#',
@@ -40,7 +40,7 @@ export default function Projects() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-2xl">
           <h2 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight">Highlighted projects</h2>
-          <p className="mt-3 text-slate-300">A few production-focused builds showcasing API design, data modeling, and platform reliability.</p>
+          <p className="mt-3 text-slate-300">A few builds that showcase API design, data modeling, and platform reliability.</p>
         </div>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
